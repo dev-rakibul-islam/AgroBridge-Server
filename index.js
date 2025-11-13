@@ -410,7 +410,6 @@ app.patch(
 
     // if (!updated.value) {
     //   return res.status(404).json();
-    // }
 
     res.json(updated.value);
   })
