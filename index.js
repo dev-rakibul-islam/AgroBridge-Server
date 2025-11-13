@@ -408,8 +408,6 @@ app.patch(
       { returnDocument: "after" }
     );
 
-    // if (!updated.value) {
-
     res.json(updated.value);
   })
 );
