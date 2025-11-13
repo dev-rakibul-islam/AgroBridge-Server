@@ -409,7 +409,7 @@ app.patch(
     );
 
     // if (!updated.value) {
-    //   return res.status(404).json({ message: "Crop not found" });
+    //   return res.status(404).json({ message: "" });
     // }
 
     res.json(updated.value);
