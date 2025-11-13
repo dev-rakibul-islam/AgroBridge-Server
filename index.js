@@ -614,8 +614,7 @@ app.patch(
     );
 
     // if (!updated.value) {
-    //   return res.status(404).json({ message: "Interest update failed" });
-    // }
+    //   return res.status(404).json
 
     res.json(updated.value);
   })
