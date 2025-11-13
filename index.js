@@ -613,9 +613,6 @@ app.patch(
       { returnDocument: "after" }
     );
 
-    // if (!updated.value) {
-    //   return res.status(404).json
-
     res.json(updated.value);
   })
 );
